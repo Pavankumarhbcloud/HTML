@@ -1,0 +1,414 @@
+<html>
+    <head>
+        <title>table</title>
+        <style>
+            .d{
+                font-size: 20px;
+            }
+            #demo{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center" style="color: teal;">Tables Complete Assignment</h1>
+        <table border="1" cellspacing="0" cellpadding="10" width="60%" bordercolor="green" align="center" class="d">
+                <caption><font color="red" size="6">Student Details</font></caption>
+                <tr style="color: rgb(51, 0, 255);">
+                    <th>SI No</th>
+                    <th>Full Name</th>
+                    <th>Mobile Number</th>
+                    <th>Education</th>
+                    <th>City</th>
+                </tr>
+                <tr align="center" style="color: rgb(4, 134, 255);">
+                    <td>1</td>
+                    <td>Pavan Kumar</td>
+                    <td>9110874577</td>
+                    <td>B.E</td>
+                    <td>Bangalore</td>
+                </tr>
+                <tr align="center" style="color: rgb(4, 176, 255);">
+                    <td>2</td>
+                    <td>Prem Kumar</td>
+                    <td>8147023626</td>
+                    <td>BSC</td>
+                    <td>Mysore</td>
+                </tr>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="0" border="3" width="20%" align="center" class="d">
+            <tr align="center">
+                <td colspan="2">One</td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">Two</td>
+                <td>Three</td>
+            </tr>
+            <tr align="center">
+                <td>Four</td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="2"  cellpadding="14" cellspacing="0" align="center" class="d" bordercolor="green">
+            <tr style="color: blue;">
+                <td>1st Row</td>
+                <td rowspan="3">Merging Three Rows</td>
+            </tr>
+            <tr style="color: rgb(255, 0, 187);">
+                <td>2nd Row</td>
+            </tr>
+            <tr style="color: rgb(28, 239, 35);">
+                <td>3rd Row</td>
+            </tr>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="0" border="5" width="30%" class="d" align="center">
+            <thead align="center" style="color:rgb(248, 22, 22);">
+                <tr>
+                    <td>Name</td>
+                    <td>Subjects</td>
+                    <td>Marks</td>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Ali</td>
+                    <td>Physics</td>
+                    <td rowspan="2">75%</td>
+                </tr>
+                <tr>
+                    <td>Umair</td>
+                    <td>Physics</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="2" border="1" class="d" align="center" width="30%" bordercolor="blue">
+            <thead align="center">
+                <tr>
+                    <th colspan="3">Product</th>
+                </tr>
+                <tr>
+                    <th>No</th>
+                    <th>P.Name</th>
+                    <th>P.count</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>1</td>
+                    <td>Pen</td>
+                    <td rowspan="3">50</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Book</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Dust</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table class="d" cellpadding="15" cellspacing="1" border="5" align="center">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="4">Telephone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ali</td>
+                    <td>8147023626</td>
+                    <td>9110874577</td>
+                    <td>9535621522</td>
+                    <td>9458745632</td>
+                </tr>
+                <tr>
+                    <td>Umair</td>
+                    <td>8147023626</td>
+                    <td>9110874577</td>
+                    <td>9535621522</td>
+                    <td>9458745632</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="2" border="1" align="center" class="d">
+            <thead align="center">
+                <tr>
+                    <th rowspan="2">State of health</th>
+                    <th colspan="2">Fasting Value</th>
+                    <th>After Eating</th>
+                </tr>
+                <tr>
+                    <th>Minimum</th>
+                    <th>Maximum</th>
+                    <th>2 hour after Eating</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Healthy</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>less than 140</td>
+                </tr>
+                <tr>
+                    <td>Pre diabities</td>
+                    <td>101</td>
+                    <td>126</td>
+                    <td>140 to 200</td>
+                </tr>
+                <tr>
+                    <td>diabities</td>
+                    <td>More than 126</td>
+                    <td>N/A</td>
+                    <td>More than 200</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="0" align="center" class="d" border="1" width="50%">
+            <thead>
+                <tr id="demo">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3">1</th>
+                    <th rowspan="3">David</th>
+                    <th>Maths</th>
+                    <th>80</th>
+                </tr>
+                <tr>
+                    <th>Physics</th>
+                    <th>90</th>
+                </tr>
+                <tr>
+                    <th>Computers</th>
+                    <th>70</th>
+                </tr>
+                <tr>
+                    <th rowspan="3">2</th>
+                    <th rowspan="3">Alex</th>
+                    <th>Maths</th>
+                    <th>80</th>
+                </tr>
+                <tr>
+                    <th>Physics</th>
+                    <th>70</th>
+                </tr>
+                <tr>
+                    <th>Computers</th>
+                    <th>90</th>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="2" border="3" width="30%" class="d" align="center" bordercolor="green">
+            <tr>
+                <th colspan="3">Product</th>
+            </tr>
+            <tr>
+                <th>No</th>
+                <th>P.Name</th>
+                <th>P.Count</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td>Pen</td>
+                <td rowspan="3">50</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>Book</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>Dust</td>
+            </tr>
+        </table>
+        <br><br>
+        <table cellspacing="2"  cellpadding="10" border="1" class="d" width="40%" align="center">
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <th colspan="5">LUNCH</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+            </tr>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="0" border="1" width="50%" class="d" align="center">
+            <caption>Invoice</caption>
+            <tr style="background-color: rgb(195, 192, 192);">
+                <th>Item/Desc.</th>
+                <th>Qty.</th>
+                <th>@</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Paperclips (Box)</td>
+                <td>100</td>
+                <td>1.15</td>
+                <td>115.00</td>
+            </tr>
+            <tr>
+                <td>Paper(Case)</td>
+                <td>10</td>
+                <td>45.99</td>
+                <td>459.90</td>
+            </tr>
+            <tr>
+                <td>Wastepaper <br> Basket
+                </td>
+                <td>2</td>
+                <td>17.99</td>
+                <td>35.98</td>
+            </tr>
+            <tr>
+                <th colspan="3" bgcolor="lightgrey">Subtotal</th>
+                <td>610.88</td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="lightgrey">Tax</th>
+                <td>7%</td>
+                <td>42.76</td>
+            </tr>
+            <tr>
+                <th colspan="3" bgcolor="lightgrey">Total</th>
+                <td>653.64</td>
+            </tr>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="0" border="1" width="30%" class="d" align="center">
+            <tr align="center">
+                <td rowspan="3">1</td>
+                <td rowspan="3">2</td>
+                <td rowspan="4">3</td>
+                <td>16</td>
+                <td>5</td>
+                <td>6</td>
+                <td>10</td>
+                <td>12</td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">4</td>
+                <td colspan="2">7</td>
+                <td>11</td>
+                <td>13</td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">8</td>
+                <td rowspan="2">9</td>
+                <td colspan="2">14</td>
+            </tr>
+            <tr align="center">
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td colspan="2">15</td>
+            </tr>
+        </table>
+        <br><br>
+        <table cellpadding="10" cellspacing="1" border="1" width="60%" align="center">
+            <caption ><h1 align="left">Nested Tables</h1></caption>
+            <tr>
+                <th>Header column 1</th>
+                <th>Header column 2</th>
+                <th>Header column 3</th>
+                <th>Header column 4</th>
+            </tr>
+            <tr>
+                <td>Row 2 - Item 1</td>
+                <td>Row 2 - Item 2</td>
+                <th rowspan="2"> Row 2: Nested Table 1
+                    <table cellpadding="10" cellspacing="1" border="1" align="center">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 3 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>Row 2 - Item 4 <br>
+                    A second line
+                </td>
+            </tr>
+            <tr>
+                <th> Row 3: Nested Table 2
+                    <table cellpadding="10" cellspacing="1" border="1" align="center">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                 </th>
+                 <td>Row 3 - Item 2</td>
+                 <td rowspan="2">Row 3 - Item 3</td>
+                
+            </tr>
+            <tr>
+                <td>Row 4 - Item 1</td>
+                <td>Row 4 - Item 2</td>
+                <td>Row 4 - Item 3</td>
+            </tr>
+            <tr>
+                <td colspan="4">Row 5 - Last row of outer table</td>
+            </tr>
+        </table>
+    </body>
+</html>

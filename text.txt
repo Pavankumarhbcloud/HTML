@@ -1,0 +1,105 @@
+HTML - hypertext markup language
+it has collection of free define tags
+the html tags use to create basic structure of webpage.-
+it use to collect information from user and it use to display information to user via web browser.
+The html tags has limited property and values. due to this limitation css is required for responsive webpage design.
+
+Responsive Web page = HTML(tags) + CSS(property and value);
+===========================================================
+ different names of HTML Tags?
+    <> open tag
+    </> close tag
+    <></> html tag
+    <></> css selector
+    <></> javascript - element
+    <></> - React - JSX Element
+=====================================
+Type of Tags?
+1. input Tags - it use to collect the information from user
+2. output tags - it use to display information to user.
+
+structure of html Tags?
+    3. dependent -element: those tags has seperate seperate open and close.
+      Example
+                <html></html>
+                <body></body>
+                <hello></hello> 
+    4. indepenent - Element: / self closing tag
+        => those tags , open and close together
+        Example 
+            <br/>
+            <hr/>
+            <abc/>
+
+Behaviour of html Tags?
+        5. Block level Element : those tags print statement in new line by default
+        6. inline Element: those tags print statement in same line by default
+
+note: using css
+    1/ block level element => convert =>inline
+    2 inline element =>convert =>block level element
+
+
+    structure of html document
+
+        =>html
+            ->head
+                ->page setting
+                ->marketing section(digital marketing)
+                ->library section
+                    ->css,js,other library
+            ->body
+                ->contents with suitable tags
+                All the information for user
+-----------------------------------------------------------------------------------------------------------------------------
+while creating follow these rules
+ 1. the tag  open 1st , should close in last
+ 2. the tag open last, should get close 1st.
+
+ =========================================================
+
+ list of tags (elements) in html
+    ->h1 to h6
+        it use to create heading of webpage
+        use h1 min and max 1 time in each page for better user experience and contents accessibility
+
+    ->p
+     use the p tag to display bulk text like more than 130 chars
+
+     Type of List in html ?
+        1. OL -order list
+            type="1"
+            type="A"
+            type="a"
+            type="I"
+            type="i"
+
+        2. UL -Unordered list
+              type="disc"
+                type="square"
+                  type="circle"
+        3. DL defination list
+         ->dt (defination title)
+         ->dd (defination details)
+
+----------------------------------------------------------------------------------------------------------------------------------
+=>How to link html pages
+<a href="" title="" target="">Text to link </a>
+a= is tag name
+href => it is name of property , use to set path for next page
+title => it is for google search and digital marketing
+target=> it set the location that whwre next file will open
+        it is of 7 types but 5 are usefull
+
+=>link1.html
+=>link2.html
+target="_self" =>the next page will open in same page.
+target="_new" => the next page will open  in new tab, but only 1 click
+target="_blank" => the next page will open  in new tab, but every click
+
+create two files login and register file
+
+target="_child" it open popup window on top of current window (need js)
+target = "_parent" - user will interact in child window, it reflect in parent (js)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
